@@ -19,5 +19,13 @@
 <!--        <action-->
 <!--            android:id="@+id/action_splashFragment2_to_signInFragment"-->
 <!--            app:destination="@id/signInFragment" />-->
+        <action
+            android:id="@+id/action_splashFragment2_to_signInFragment"
+            app:destination="@id/signInFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="uz.sardor.komilcars.fragments.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
 </navigation>
